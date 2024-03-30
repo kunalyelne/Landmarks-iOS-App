@@ -27,9 +27,9 @@ struct LandmarkList: View {
     var body: some View {
         NavigationSplitView {
             List {
-                Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
-                }
+                Toggle("Favorites only", systemImage: showFavoritesOnly ? "star.fill" : "star", isOn: $showFavoritesOnly)
+                .labelStyle(.titleAndIcon)
+                .contentTransition(.symbolEffect)
                 ForEach(filteredLandmarks) {landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
