@@ -23,6 +23,7 @@
 		E8A2B4172BA575DC0056A2A7 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2B4162BA575DC0056A2A7 /* LandmarksUITests.swift */; };
 		E8A2B4192BA575DC0056A2A7 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A2B4182BA575DC0056A2A7 /* LandmarksUITestsLaunchTests.swift */; };
 		E8FE1F6E2BB974B200485DC3 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE1F6D2BB974B200485DC3 /* FavoriteButton.swift */; };
+		E8FE1F752BB9779500485DC3 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E8FE1F742BB9779500485DC3 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		E8A2B4162BA575DC0056A2A7 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		E8A2B4182BA575DC0056A2A7 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E8FE1F6D2BB974B200485DC3 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		E8FE1F742BB9779500485DC3 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		E8A2B3FA2BA575DA0056A2A7 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				E8FE1F712BB976FF00485DC3 /* Resources */,
 				E8A2B3FB2BA575DA0056A2A7 /* LandmarksApp.swift */,
 				E87E9ABD2BA5C83D00B98011 /* Models */,
 				E87E9AB82BA5BC9000B98011 /* Views */,
@@ -192,6 +195,14 @@
 				E8FE1F6D2BB974B200485DC3 /* FavoriteButton.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		E8FE1F712BB976FF00485DC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8FE1F742BB9779500485DC3 /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A2B4032BA575DC0056A2A7 /* Preview Assets.xcassets in Resources */,
+				E8FE1F752BB9779500485DC3 /* landmarkData.json in Resources */,
 				E8A2B4002BA575DC0056A2A7 /* Assets.xcassets in Resources */,
 				E87E9AC12BA6C8BD00B98011 /* landmarkData.json in Resources */,
 			);
